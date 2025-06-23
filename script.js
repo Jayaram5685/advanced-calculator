@@ -61,3 +61,8 @@ document.addEventListener("keydown", function (event) {
     clearDisplay();
   }
 });
+
+function toggleTheme() {
+  document.body.classList.toggle("dark-mode");
+  document.getElementById("calculator").classList.toggle("dark-mode");
+}
